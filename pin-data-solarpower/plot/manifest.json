@@ -1,12 +1,12 @@
 {
  "package": "plot-solarpower",
  "language": "python",
- "author": "Farmbot.io",
+ "author": "N3v3l",
  "description": "Plot solarpower pin data.",
- "version": "0.0.2",
+ "version": "0.0.1",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/pin-data-farmware/master/plot/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/pin-data-farmware/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/N3v3l/Farmware_public/master/pin-data-solarpower/plot/manifest.json",
+ "zip": "https://github.com/N3v3l/Farmware_public/archive/master.zip",
  "executable": "python",
  "args": ["pin-data-solarpower-master/plot/plot.py"]
 }
