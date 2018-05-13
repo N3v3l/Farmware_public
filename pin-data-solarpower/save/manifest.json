@@ -1,12 +1,12 @@
 {
  "package": "save-solarpower",
  "language": "python",
- "author": "Farmbot.io",
+ "author": "N3v3l",
  "description": "save solarpower pin data",
- "version": "1.0.0",
+ "version": "0.0.1",
  "min_os_version_major": 6,
- "url": "https://raw.githubusercontent.com/FarmBot-Labs/farmware_manifests/master/packages/take-photo/manifest.json",
- "zip": "https://github.com/FarmBot-Labs/Take-Photo/archive/master.zip",
+ "url": "https://raw.githubusercontent.com/N3v3l/Farmware_public/master/pin-data-solarpower/save/manifest.json",
+ "zip": "https://github.com/N3v3l/Farmware_public/archive/master.zip",
  "executable": "python",
  "args": ["pin-data-solarpower-master/save/save.py"]
 }
