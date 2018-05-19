@@ -8,8 +8,6 @@
 
 import os
 
-"""Wieso braucht er diese Variabel? sys"""
-
 import sys
 
 import json
@@ -17,8 +15,6 @@ import json
 from time import time
 
 import requests
-
-"""Wieso macht er diese Überprüfung?"""
 
 try:
 
@@ -164,7 +160,6 @@ def post(wrapped_data):
 
                   data=payload, headers=headers)
 
-"""Was für eine Überprüfung wird hier gemacht?"""
 
 if __name__ == "__main__":
 
