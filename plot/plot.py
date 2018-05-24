@@ -63,9 +63,9 @@ def reduce_data(data):
 def plot(data):
     """Plot the reduced data."""
     # Create blank plot
-    p = np.full([512, 24 * 60 / 2], 255, np.uint8)
+    p = np.full([1000, 24 * 60 / 2], 255, np.uint8)
     # Add shaded plot areas
-    for i in range(512):
+    for i in range(1000:
         if i < 100:  # N/A
             p[i, :] = 220
         elif i > 425:  # off
@@ -73,7 +73,7 @@ def plot(data):
         else:  # sensor range (gradient)
             p[i, :] = 255 - 175 * ((i - 100) / float(425 - 100))
     # Add horizontal gridlines
-    for i in range(0, 512, 32):
+    for i in range(0, 1000, 32):
         p[i, :] = 100
         if i == 384:
             p[i, :] = 125
