@@ -1,0 +1,17 @@
+
+{
+"package": "Netatmo",
+"language": "python",
+"author": "N3v3l",
+"description": "Looks up precipitation and temperature in netatmo public service or your own weather station.",
+"version": "1.2.3",
+"min_os_version_major": 6,
+"url":"https://raw.githubusercontent.com/N3v3l/Farmware_public/master/manifest.json",
+"zip": "https://github.com/N3v3l/Farmware_public/archive/master.zip",
+"executable": "python",
+"args": ["Farmware_public-master/main.py"],
+"config": [
+ {"name": "ne", "label": "North-East corner (longitude,latitude):", "value": "(46.955,7.425)"},
+ {"name": "sw", "label": "South-West corner (longitude,latitude):", "value": "(46.95,742)"}
+]
+}
